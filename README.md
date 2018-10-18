@@ -20,3 +20,39 @@ Variable description:
 •	min_price- Minimum price charged per quintal
 •	max_price- Maximum price charged per quintal
 •	modal_price- Mode (Average) price charged per quintal
+
+
+# Methodology
+
+The methodology followed for this assignment was to first check for missing values in the data, followed by identifying the outliers using a box plot for the target variable modal_price.
+
+The box plot showed a large number of data points above the upper whisker, the outliers. 
+The next step was to calculate the interquartile range (IQR), and then removing data points that were below Quartile1 - 1.5 * IQR and Quartile3 + 1.5 * IQR, which left 59896 data points from the original 62428 data points.(4.07% data omission is assumed to be acceptable) 
+
+Next, the data set had to be convereted to a time series, so as to plot the seasonal plots of the modal_price.
+
+Once that was done, time series plot of the first APMC in the dataset = Ahmednagar was plotted with respect to the modal_price, which was not very conclusive. 
+Upon checking the frequency of the the APMC commodities, the top five APMC's which came up were:
+
+Mumbai                    1538
+Pune                      1513
+Nagpur                    1340
+Barshi                    1076
+Jalgaon                   1055
+Solapur                    984
+
+Whereas the highest in the frequency in the commodities were as follows:
+gram                     4115
+wheat(husked)            4097
+soybean                  3727
+sorgum(jawar)            3716
+pigeon pea (tur)         3477
+
+# Analysis
+
+Plotting the seasonality for each aggregated top 5 APMC and commodity's shows a cyclic movement in the prices across APMC's and commoditites, and no clear additive or multiplicative seasonality.
+
+The movement of prices from April 2014 till December 2016 have 2 identical cycles of drops and rises, whcih can be accounted for the type of crop the commodity is; that is; rabi or kharif crop.
+
+The trends in deasonalised plots of the commoditites depict movement of the prices that is distinct for each commodity.
+# Final results 
