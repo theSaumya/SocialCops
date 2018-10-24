@@ -58,7 +58,8 @@ The trends in deasonalised plots of the commoditites depict movement of the pric
 
 Comparing MSPrice with Modal_Price by creating a merged dataset with aggregated monthly data and subsetting commodities based on the ones present in both yearly MSPrice data and monthly Modal_Price data gives us the following graphs:
 
-https://github.com/theSaumya/SocialCops/blob/master/PriceVSCommodity.png
+![PriceVSCommodity](https://github.com/theSaumya/SocialCops/blob/master/PriceVSCommodity.png)
+
 These graphs show that the modal price is on a scale that extends 12000 rupees per quintal whereas the MSPrice has a scale with the high value ending below 6000 rupees per quintal.
 This shows that for the selected commom commodities, the minimum prices set by the Government are quite low and the prices at which the commoditites are being sold at mandi's and APMC's are skyrocketing. 
 
