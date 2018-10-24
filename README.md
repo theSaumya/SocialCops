@@ -55,4 +55,14 @@ Plotting the seasonality for each aggregated top 5 APMC and commodity's shows a 
 The movement of prices from April 2014 till December 2016 have 2 identical cycles of drops and rises, whcih can be accounted for the type of crop the commodity is; that is; rabi or kharif crop.
 
 The trends in deasonalised plots of the commoditites depict movement of the prices that is distinct for each commodity.
+
+Comparing MSPrice with Modal_Price by creating a merged dataset with aggregated monthly data and subsetting commodities based on the ones present in both yearly MSPrice data and monthly Modal_Price data gives us the following graphs:
+
+https://github.com/theSaumya/SocialCops/blob/master/PriceVSCommodity.png
+These graphs show that the modal price is on a scale that extends 12000 rupees per quintal whereas the MSPrice has a scale with the high value ending below 6000 rupees per quintal.
+This shows that for the selected commom commodities, the minimum prices set by the Government are quite low and the prices at which the commoditites are being sold at mandi's and APMC's are skyrocketing. 
+
 # Final results 
+The price differences in the minimum price set by the Government and the actual price that the commoditites are sold for may be due to a few reasons, one of which can be that the transportation cost involved may be too high for select commoditites. 
+Since this is an aggregation on the APMC, Commodity and Year level, it may not be the exact clear picture on the miniscule level, but it brings to light the price differences between the decided prices and the real prices. 
+
